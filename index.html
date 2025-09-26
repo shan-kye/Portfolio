@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank Shukla | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Shashank</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <section class="hero-section">
+        <div class="hero-content">
+            <!-- Profile Photo -->
+            <img src="image.png" alt="My Profile Photo" class="profile-pic">
+
+            <h1 class="hero-heading">Hi, I'm <span class="highlight">Shashank Shukla</span></h1>
+            <p class="hero-subheading">Data Science Algorithm & Frontend Developer</p>
+            <p class="hero-text">An India-based Software Engineer with a passion for building impactful solutions.</p>
+            <div class="hero-buttons">
+                <!-- Updated Resume Download Link -->
+                <a href="https://drive.google.com/file/d/1FvIAhlqKw851JO1U5xpk_UN7A0IxOnro/view?usp=sharing" 
+                   class="btn primary" 
+                   target="_blank">
+                   Download Resume
+                </a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-text">
+                I'm a final-year B.Tech student in Computer Science and Engineering (Cybersecurity) with hands-on experience in software development and network security. I am skilled in problem-solving, teamwork, and quickly adapting to emerging technologies. I'm seeking opportunities to apply my technical expertise to impactful projects.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="section-container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Frontend</h3>
+                    <p>React JS, Next JS, HTML & CSS, JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Backend & Data Science</h3>
+                    <p>Python, Node.js, Flask, scikit-learn</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Databases</h3>
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Other</h3>
+                    <p>Cybersecurity, Network Security, Web Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="section-container">
+            <h2 class="section-title">My Latest Work</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="project1-thumbnail.png" alt="ML-Powered Travel Management Website">
+                    <h3>ML-Powered Travel Management Website</h3>
+                    <p>Developed a full-stack web app recommending travel destinations and generating itineraries using machine learning. Integrated Google Maps and geolocation APIs for real-time navigation.</p>
+                    <div class="project-tech-stack">
+                        <span>React.js</span> <span>Node.js</span> <span>MongoDB</span> <span>Python</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="project2-thumbnail.png" alt="Telemedicine Website">
+                    <h3>Telemedicine Website</h3>
+                    <p>Created a smart healthcare platform with a multilingual AI chatbot, telemedicine support, and predictive analytics. Includes dashboards for doctors to manage patient data.</p>
+                    <div class="project-tech-stack">
+                        <span>React.js</span> <span>Node.js</span> <span>MongoDB</span> <span>AI/ML</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-form-container">
+                <form action="submit_form.php" method="POST" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Shashank Shukla. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
